@@ -19,7 +19,7 @@ export default function Home() {
         <p className={styles.description}>
           Submit your run through{' '}
           <a href="https://discord.gg/NbUDTyucYy">
-            SH3MYS's SPARTA Discord Server
+            SH3RMYS's SPARTA Discord Server
           </a>{' '}
           and mention @Art3mis
         </p>
