@@ -5,61 +5,89 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>モンスターハンターワールドアイスボーンFaint%</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <header className={styles.header}>
+        モンスターハンターワールドアイスボーンFaint%
+      </header>
+
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+        <h1 className={styles.title}>Faint% Solo TA Rules</h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+          Submit your run through{' '}
+          <a href="https://discord.gg/NbUDTyucYy">
+            SH3MYS's SPARTA Discord Server
+          </a>{' '}
+          and mention @Art3mis
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
+          <div className={styles.card}>
+            <h3>Game versions </h3>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              The latest version of the Monster Hunter World Iceborne on PC,
+              PS4, and Xbox one at the time of the post.
             </p>
-          </a>
+          </div>
+
+          <div className={styles.card}>
+            <h3>Quests </h3>
+            <p>Mastar ranked Hunt/Slay quests only.</p>
+          </div>
+
+          <div className={styles.card}>
+            <h3>Number of hunters </h3>
+            <p>Solo (no palico) all the way through.</p>
+          </div>
+
+          <div className={styles.card}>
+            <h3>Runs accepted </h3>
+            <p>
+              This site shows top 3 runs for each weapon per quest. Runs that
+              does not make the top 3 will not be accepted.
+            </p>
+          </div>
+
+          <div className={styles.card}>
+            <h3>Items</h3>
+            <p>The use of the following items are prohibited.</p>
+            <ul>
+              <li>All Bombs</li>
+            </ul>
+          </div>
+
+          <div className={styles.card}>
+            <h3>Skills</h3>
+            <p>
+              The following skills are prohibited(even if they do not come into
+              effect.)
+            </p>
+            <ul>
+              <li>Dragonvein Awakening</li>
+              <li>True Dragonvein Awakening</li>
+            </ul>
+          </div>
+
+          <div className={styles.card}>
+            <h3>Equipments</h3>
+            <p>
+              Any equipment with the prohibited skills above is prohibited. No
+              mantles/boosters
+            </p>
+          </div>
+
+          <div className={styles.card}>
+            <h3>Environmental traps and etc</h3>
+            <p>
+              Any damage from environmental traps, flora, and insects are
+              prohibited.
+            </p>
+          </div>
         </div>
       </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
     </div>
   )
 }
